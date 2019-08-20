@@ -8,7 +8,4 @@ repo = 'tomasr/molokai'
 repo = 'scrooloose/nerdtree'
 
 [[plugins]]
-repo = 'Shougo/deoplete.nvim'
-
-[[plugins]]
 repo = 'Townk/vim-autoclose'
