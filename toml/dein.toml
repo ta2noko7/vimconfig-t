@@ -9,3 +9,6 @@ repo = 'scrooloose/nerdtree'
 
 [[plugins]]
 repo = 'Townk/vim-autoclose'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
