@@ -23,6 +23,10 @@ if dein#load_state(s:dein_dir)
   call dein#load_toml(s:toml, {'lazy': 0})
   call dein#load_toml(s:lazy_toml, {'lazy': 1})
 
+  "PHP開発時はコメント解除（php7,composerが必要）
+  "call dein#load_toml(s:toml_dir . '/dev_php.toml', {'lazy': 1})
+  "autocmd FileType php setlocal omnifunc=phpactor#Complete
+
   " Required:
   call dein#end()
   call dein#save_state()
