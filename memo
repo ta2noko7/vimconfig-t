@@ -1,0 +1,22 @@
+# Python3
+有効判定方法
+
+'''
+:echo has('python3')
+'''
+
+'0'：無効
+'1'：有効
+
+# deoplete
+
+正常に動作しない場合、以下のコマンドを実行することで直る可能性がある
+
+'''
+pip3 install --upgrade neovim
+'''
+
+# phpactor
+
+php7, composerが必要
+また、intlが有効になっていない場合、composer installコマンドでエラーとなり、正常に動作しない
