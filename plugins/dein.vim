@@ -1,5 +1,9 @@
 "deinのインストール先を定義
-let s:dein_dir = expand('~/vimconfig-t/dein')
+if has('nvim')
+  let s:dein_dir = expand('~/vimconfig-t/dein/nvim')
+else
+  let s:dein_dir = expand('~/vimconfig-t/dein/vim')
+endif
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 
 "tomlファイル格納先を定義
